@@ -9,7 +9,7 @@ export default function SignUpLayout() {
                 <SignUpForm />
             </div>
             <div className="image-content">
-                <img className="image" src="/images/signupImage.jpg" alt="SignUp Image" />
+                <img className="image-style" src="/images/signupImage.jpg" alt="SignUp" />
             </div>   
         </div>
     );

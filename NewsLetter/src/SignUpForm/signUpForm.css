@@ -1,0 +1,17 @@
+.textField {
+    margin-left: 1;
+    margin-right: 1;
+    width: 18vw;
+  }
+ .form-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     margin: 32px;
+ } 
+ .child-container{
+    display: flex;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: space-around;
+ }

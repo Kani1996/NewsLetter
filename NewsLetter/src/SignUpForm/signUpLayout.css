@@ -1,0 +1,20 @@
+.container{
+    display : flex;
+    flex-direction: row;
+    height: 100%;
+}
+.form-content{
+    display : flex;
+    width:60vw;
+    align-items: "end";
+    justify-content: "flex-start";
+}
+.image-content{
+    display : flex;
+    margin: 32px;
+    width:30vw;
+}
+.image{
+    height: 300px;
+    float: right;
+}

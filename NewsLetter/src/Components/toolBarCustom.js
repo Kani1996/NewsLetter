@@ -55,7 +55,7 @@ export default function ToolBarCustom() {
               </div>
               <div className={classes.child2}>
                  <Link to="/login" style={{ color:"white", textDecoration: "none" }}>
-                   <Button color="inherit">Login</Button>
+                   <Button color="inherit">Log In</Button>
                  </Link>
               </div>
           </div>

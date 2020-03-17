@@ -41,7 +41,7 @@ export default function SignUpForm() {
         },
       });
       return (
-        <form onSubmit={formik.handleSubmit}>
+        <form className="width-100" onSubmit={formik.handleSubmit}>
             <div className="form-container">
                 <div className="child-container">
                     <TextField

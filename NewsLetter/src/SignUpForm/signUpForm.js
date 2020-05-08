@@ -29,11 +29,17 @@ export default function SignUpForm() {
       
         return errors;
       };
+      // const CREATE_TODO = gql`
+      //     mutation addUser(firstName: String!, lastName: String!,email: String!,password: String!) {
+      //       addUser(text: $text)
+      //   }
+      // `;
       const formik = useFormik({
         initialValues: {
           firstName: '',
           lastName: '',
           email: '',
+          password: ''
         },
         validate,
         onSubmit: values => {
@@ -82,6 +88,18 @@ export default function SignUpForm() {
                     />
                     {formik.touched.email && formik.errors.email ? <div>{formik.errors.email}</div> : null}
                 </div>
+                <div className="child-container">
+                        <TextField
+                            id="password"
+                            name="password"
+                            type="password"
+                            label="Password"
+                            className="textField"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.password}
+                        />
+                    </div>
                 <div className="child-container">
                   <Button className="textField"  variant="outlined" color="primary" type="submit">Submit</Button>
                 </div>

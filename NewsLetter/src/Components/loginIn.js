@@ -69,7 +69,7 @@ class LogIn extends Component{
             </form>
           </div>
           <div className={classes.child}>
-             <img className="image-style" src="/images/signupImage.jpg" alt="SignUp" />
+             <img className="image-style" src="/images/reviewImage.jpg" alt="SignUp" />
           </div>
       </div>
     );
